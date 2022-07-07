@@ -13,18 +13,21 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .fix-width {
     width: 50%;
-    padding-left: 3%;
-    font-display: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    content: justify;
 }
 
 .fix-width img {
     width: 70%;
-    padding-left: 10%;
+    padding-left: 8%;
     padding-top: 10px;
+    padding-bottom: 10%;
 }
 
 .hireme-button {
@@ -37,8 +40,25 @@ section {
 
 }
 
-.container {
+.resume-button {
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-image: linear-gradient(pink, rgb(164, 58, 132));
+    text-decoration: none;
+    color: white;
+    font-weight: 700px;
+
+}
+
+.container-1 {
     background-image: url(my_images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.container-2 {
+    background-image: url(my_images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
